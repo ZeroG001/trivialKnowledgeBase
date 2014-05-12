@@ -1,0 +1,15 @@
+Changes to this page will just be in exersis in jquery and adding a few features. The php code may remain the same.
+
+- Add Navigation to navigate back a fourth between web pages.
+- Add Slide animation when getting search results.
+- Improve look and layout of article and question entry
+- Clean up look for results
+
+Advanced objectives
+
+- Optimize website. I noticed some pictures and JS program load a little slow.
+
+
+Possible changes.
+- Add pages for each result?
+- Change Color Scheme?

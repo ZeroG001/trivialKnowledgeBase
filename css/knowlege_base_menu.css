@@ -1,0 +1,55 @@
+body {
+    font-family: "Average Sans", sans-serif;
+    background:  #535233;
+    background-image: url('../img/bedge_grunge.png');
+    background-attachment: fixed;
+}
+
+div.box1 {
+    position: : relative;
+    background: #A5A36C;
+    margin-top: 25px;
+    padding: 30px;
+    display: block;
+   
+    text-decoration: none;
+    color: inherit;
+    font-size:2em;
+    text-align: center;
+    color: #F5F4D7;
+    border-radius: 10px;
+
+    -webkit-animation : slide-in 1s;
+    -moz-animation: slide-in 1s;
+}
+
+div.box1 h3 {
+    
+    padding: 0; 
+    margin: 0;
+}
+
+
+a:hover {
+text-decoration: underline;
+
+}
+
+.menu_wrapper {
+    width: 400px;
+    margin: auto;
+    margin-top: 15%;
+
+}
+
+/* Keyframe Animations */
+
+@-webkit-keyframes slide-in {
+    0% {opacity: 0; -webkit-transform: translateX(-10%) }
+    100% {opacity 1; -webkit-transform: translateX(0%)}
+}
+
+@-moz-keyframes slide-in {
+    0% {opacity: 0; -moz-transform: translateX(-10%) }
+    100% {opacity 1; -moz-transform: translateX(0%)}
+}

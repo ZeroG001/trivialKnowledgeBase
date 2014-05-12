@@ -1,0 +1,32 @@
+    body {
+font-family:Average Sans, sans-serif;
+background:  #F5F4D7;
+background-image: url('../img/bedge_grunge.png');
+background-attachment: 'fixed';
+}
+
+div.knowlege_base {
+   background: #E0DFB1;
+    width: 50em;
+    margin: auto;
+    padding: 40px;
+    color: #535233;
+}
+
+.solution_textarea {
+    height: 200px;
+}
+
+.summary {
+    width: 894px;
+    resize: none;
+    
+}
+
+label {
+display: block;
+}
+
+.tiny_textarea {
+margin-top:20px;
+}

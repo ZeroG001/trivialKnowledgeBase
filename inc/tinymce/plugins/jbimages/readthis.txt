@@ -1,0 +1,11 @@
+
+    Download distribution pack. Unzip it into TinyMCE’s plugins folder.
+    Edit config.php file found in plugins/jbimages. Minimally, you should only specify a target directory for your uploads. Every block of config.php is well-commented, so I think everything should go right.
+    Activate jbimages plugin and add jbimages button in TinyMCE. Don’t forget to set theme:advanced and relative_urls:false.
+
+
+These instructions are missing ALOT of steps
+
+For useage of this program please refer to
+
+http://justboil.me/

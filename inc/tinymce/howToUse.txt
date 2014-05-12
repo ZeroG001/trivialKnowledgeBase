@@ -1,0 +1,9 @@
+1. Include the JS File
+	- <script src="//tinymce.cachefly.net/4.0/tinymce.min.js"></script> (Running it from the internet)
+	- <script src="inc/tinymce.min.js"></script> (Running from local server)
+
+2. Initialize it!
+	- tinymce.init({selector:'textarea'});
+....
+
+<textarea> </textarea>

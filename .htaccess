@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteRule ^create_article/$ /trivial_knowlege_base_Plus/articles/article_create.php
+RewriteRule ^articles/$ /trivial_knowlege_base_Plus/articles/article_create.php
+RewriteRule ^create_question/$ /trivial_knowlege_base_Plus/articles/question_create.php
+RewriteRule ^search_article/$ /trivial_knowlege_base_Plus/search/search_article.php
+RewriteRule ^search_question/$ /trivial_knowlege_base_Plus/search/search_question.php
+RewriteRule ^articles/view_article/([0-9]+)/$ /trivial_knowlege_base_Plus/articles/view_article.php?a_id=$1
+RewriteRule ^articles/view_question/([0-9]+)/$ /trivial_knowlege_base_Plus/articles/view_question.php?a_id=$1
+RewriteRule ^articles/edit_article/([0-9]+)/$ /trivial_knowlege_base_Plus/articles/edit_article.php?a_id=$1
+RewriteRule ^articles/edit_question/([0-9]+)/$ /trivial_knowlege_base_Plus/articles/edit_question.php?a_id=$1
+
+
+
