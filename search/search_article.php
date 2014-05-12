@@ -26,7 +26,6 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 			$("document").ready(function(){
 
 				$runSpeed = $(".search_results").height() / 5;
-				alert($runSpeed);
 				
 				$(".search_results").hide();
 				$(".search_results").slideDown($runSpeed);
